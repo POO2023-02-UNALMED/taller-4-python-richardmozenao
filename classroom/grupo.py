@@ -28,7 +28,7 @@ class Grupo:
         if len(self.listadoAlumnos) == 0:
             st = "Grupo de estudiantes: grupo predeterminado"
         else:
-            st = "Grupo de estudiantes: " + self.listadoAlumnos
+            st = "Grupo de estudiantes: " + self._grupo
         return st
 
     @ classmethod
